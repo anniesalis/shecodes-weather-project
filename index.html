@@ -10,8 +10,8 @@
       rel="stylesheet"
     />
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
-    <link rel="stylesheet" href="style.css" />
-    <title>My weather application</title>
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>Weather ForeCast</title>
   </head>
   <body>
     <div class="weather-app">
@@ -19,7 +19,7 @@
         <form class="search-form" id="search-form">
           <input
             type="search"
-            placeholder="Enter a city.."
+            placeholder="Enter a City, Country Etc.."
             required
             class="search-form-input"
             id="search-form-input"
@@ -34,8 +34,9 @@
             <p class="current-details">
               <span id="time"></span>, <span id="description"></span>
               <br />
-              Humidity: <strong id="humidity"></strong>, Wind:
-              <strong id="wind"></strong>
+              Humidity: <strong id="humidity"></strong> Wind:<strong
+                id="wind"
+              ></strong>
             </p>
           </div>
           <div class="current-temperature">
@@ -44,29 +45,30 @@
             ><span class="current-temperature-unit">°C</span>
           </div>
         </div>
+        <div class="weather-forecast" id="forecast"></div>
       </main>
       <footer>
-        <p>
+        <p class="portfolio">
           This project was coded by
           <a href="https://github.com/anniesalis" target="_blank"
-            >Annie Salis</a
+            >Annie Salis,</a
           >
-          and is
+          available on
           <a
             href="https://github.com/anniesalis?tab=repositories"
             target="_blank"
           >
-            on GitHub</a
+            GitHub</a
           >
-          and
+          and hosted on
           <a
             href="https://66a661de07f56f3e636b320f--anniesalis-shecodes-weather-project.netlify.app/?"
             target="_blank"
-            >hosted on Netlify</a
+            >Netlify</a
           >
         </p>
       </footer>
     </div>
   </body>
-  <script src="index.js"></script>
+  <script src="src/index.js"></script>
 </html>

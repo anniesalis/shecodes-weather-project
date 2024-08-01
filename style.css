@@ -1,26 +1,8 @@
 body {
-  background: rgb(186, 206, 241);
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/136/327/original/continents-2660928_1280.jpg?1722361492");
+
   font-family: "Roboto", sans-serif;
 }
-
-a {
-  color: navy;
-}
-
-.weather-app {
-  background: white;
-  max-width: 600px;
-  margin: 60px auto;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
-}
-
-header {
-  border-bottom: 1px solid #f9f7fe;
-  padding-bottom: 30px;
-}
-
 .search-form-input {
   background-color: rgb(186, 206, 241);
   border: none;
@@ -40,6 +22,20 @@ header {
   padding: 20px;
   line-height: 1;
   border-radius: 5px;
+}
+
+.weather-app {
+  background: rgb(99, 178, 235);
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+
+header {
+  border-bottom: 1px solid #f9f7fe;
+  padding-bottom: 30px;
 }
 
 main {
@@ -73,7 +69,8 @@ main {
 
 .current-temperature-icon {
   position: relative;
-  top: -8px;
+  top: 8px;
+  left: 26px;
   font-size: 40px;
   margin-right: 10px;
 }
@@ -87,6 +84,39 @@ main {
   font-size: 28px;
   position: relative;
   top: -38px;
+}
+a {
+  color: navy;
+}
+
+.weather-forcast-date {
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: -5px;
+  text-align: center;
+}
+.weather-forcast-icon {
+  text-align: center;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 36px;
+  margin-top: 8px;
+}
+.weather-forcast-temperatures {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: #f65282;
+}
+.weather-forcast-temperature {
+  padding: 0 10px;
+}
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+}
+.portfolio {
+  font-family: monospace;
 }
 
 footer {
