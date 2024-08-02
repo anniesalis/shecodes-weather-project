@@ -5,6 +5,7 @@ body {
 }
 .log {
   max-width: 100px;
+  border-radius: 6px;
 }
 .search-form-input {
   background-color: rgb(186, 206, 241);
