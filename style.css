@@ -4,8 +4,12 @@ body {
   font-family: "Roboto", sans-serif;
 }
 .log {
-  max-width: 100px;
+  max-width: 80px;
   border-radius: 6px;
+}
+form {
+  display: flex;
+
 }
 .search-form-input {
   background-color: rgb(186, 206, 241);
@@ -27,7 +31,14 @@ body {
   line-height: 1;
   border-radius: 5px;
 }
+.current-temperature {
+  display: flex;
+}
 
+.current-temperature-unit {
+  position: relative;
+  top: 50px;
+}
 .weather-app {
   background: rgb(99, 178, 235);
   max-width: 600px;
@@ -46,9 +57,6 @@ main {
   padding: 30px 0;
 }
 
-.current-temperature {
-  font-size: 48px;
-}
 
 .current-weather {
   display: flex;
@@ -87,7 +95,8 @@ main {
 .current-temperature-unit {
   font-size: 28px;
   position: relative;
-  top: -38px;
+  top: 8px;
+  right: 10px;
 }
 a {
   color: navy;
@@ -129,3 +138,4 @@ footer {
   padding-top: 15px;
   color: rgba(39, 33, 66, 0.4);
 }
+
